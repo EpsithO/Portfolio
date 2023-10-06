@@ -651,3 +651,98 @@ body {
     text-align: center;
     padding: 20px 0;
 }
+
+
+#contact{
+    background-color: white;
+    width: 100%;
+
+
+}
+
+.textContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textContact h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.moyens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textContact p{
+    font-size: 24px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contactMoyens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.moyensContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.telephone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    background-color: #e52222;
+    padding: 75px;
+}
+
+
+
+
+.mailBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    background-color: dodgerblue;
+    padding: 75px;
+}
+
+.linkBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    background-color: orange;
+    padding: 75px;
+}
+
+.githubBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    background-color: green;
+    padding: 75px;
+}
+
+
+

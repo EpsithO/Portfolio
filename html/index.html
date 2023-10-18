@@ -143,7 +143,7 @@
           <!-- SECCION CURRICULUM -->
         <section id="curriculum" class="curriculum">
             <div class="contenido-seccion">
-                <h2>CV / compétences</h2>
+                <h2>CV</h2>
                 <div class="fila">
                     <div class="col izquierda">
                         <h3>Scolarité</h3>
@@ -287,41 +287,110 @@
 
 <!-- Section Projets -->
 
-        <section class="projets">
+<section class="Projet">
 
-            <h3>Projets effectués</h3>
-            <div class="groupePrjet">
-                <div class="diff-projet">
-                    <div class="projet">
-                        <h4>Intégration Continue</h4>
-                        <span>Intégration continue de projets logiciel à l'aide de docker, jenkins, SonarQube et Nexus </span>
-                        <div class="lien">
-                            <img src="/image/Inte_continue.PNG">
+
+
+<div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <ul class="carousel">
+
+        <li class="card">
+            <div class="img"><img src="/image/projet1.png" alt="img" draggable="false"></div>
+            <h2>Intégration continue</h2>
+            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
+
+            <label for="modal-btn">Détail du projet</label>
+
+
+
+
+            <div class="modal">
+                <div class="modal-wrap">
+                    <div class="box">
+
+                        <div class="flex">
+                            <img src="/image/Inte_continue.PNG" alt="">
                         </div>
+
+                        <div class="descCard">
+                            <h1>Intégration Continue</h1>
+                            <p>Dicere amicitiarum quaerant viri firmitatis et quaerant quam neque fieri adiumentique appetere appetere perstrinxi) paulo virium multo ut neque dicere (quem perstrinxi) magis esse expetendas quam inopes firmitatis (quem locum et qui benevolentiae quam praesidia dicere praesidii expetendas ut perstrinxi) minimumque praesidia ii dicere etiam haberet caritatis quam ante quisque.</p>
+                            <p class="h"> Technologie travailler : Jenkins, Docker, Nexus, SonarQube</p>
+                        </div>
+
+
                     </div>
                 </div>
-
-                    <div class="diff-projet">
-                        <div class="projet">
-                            <h4>Intégration Continue</h4>
-                            <span>Intégration continue de projets logiciel à l'aide de docker, jenkins, SonarQube et Nexus </span>
-                            <div class="lien">
-                                <img src="/image/Inte_continue.PNG">
-                            </div>
-                        </div>
-                    </div>
-
-                        <div class="diff-projet">
-                            <div class="projet">
-                                <h4>Intégration Continue</h4>
-                                <span>Intégration continue de projets logiciel à l'aide de docker, jenkins, SonarQube et Nexus </span>
-                                <div class="lien">
-                                    <img src="/image/Inte_continue.PNG">
-                                </div>
-                            </div>
-                        </div>
             </div>
-        </section>
+
+
+        <li class="card">
+            <div class="img"><img src="/image/png_livre.png" alt="img" draggable="false"></div>
+            <h2>Projet BTS N°1</h2>
+            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
+
+            <label for="modal-btn">Détails</label>
+
+
+
+
+            <div class="modal">
+                <div class="modal-wrap">
+                    <div class="box">
+
+                        <div class="flex">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="descCard">
+                            <h1>Projet intégration Continue</h1>
+                            <p>Dicere amicitiarum quaerant viri firmitatis et quaerant quam neque fieri adiumentique appetere appetere perstrinxi) paulo virium multo ut neque dicere (quem perstrinxi) magis esse expetendas quam inopes firmitatis (quem locum et qui benevolentiae quam praesidia dicere praesidii expetendas ut perstrinxi) minimumque praesidia ii dicere etiam haberet caritatis quam ante quisque.</p>
+                            <p class="h"> Technologie travailler :</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        <li class="card">
+            <div class="img"><img src="/image/projet_backenfd.png" alt="img" draggable="false"></div>
+            <h2>Projet BTS N°2</h2>
+            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
+
+            <label for="modal-btn">Détails</label>
+
+
+
+
+            <div class="modal">
+                <div class="modal-wrap">
+                    <div class="box">
+
+                        <div class="flex">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="descCard">
+                            <h1>Projet BTS N°2</h1>
+                            <p>Dicere amicitiarum quaerant viri firmitatis et quaerant quam neque fieri adiumentique appetere appetere perstrinxi) paulo virium multo ut neque dicere (quem perstrinxi) magis esse expetendas quam inopes firmitatis (quem locum et qui benevolentiae quam praesidia dicere praesidii expetendas ut perstrinxi) minimumque praesidia ii dicere etiam haberet caritatis quam ante quisque.</p>
+                            <p class="h"> Technologie travailler :</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+    </section>
+
 
         <section id="contact">
             <div class="textContact">
@@ -356,7 +425,10 @@
             </div>
         </section>
 
-<script src="/Js/script.js"></script>
+<div class="cursor"></div>
+
+<script src="script.js"></script>
+<script src="cursor.js"></script>
     
 
 

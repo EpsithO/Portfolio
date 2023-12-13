@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/CSS/index.css">
+    <script src="/Js/cursor.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Accueil</title>
 </head>
@@ -17,35 +18,17 @@
 
 
     <div class="header">
-        <h1>
-            <a href="#menu"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
-        </h1>
-
-        <div class="popover" id="menu">
-            <div class = 'content'>
-                <a href="#" class="close"></a>
-                <div class = 'nav'>
-                    <ul class = 'nav_list'>
-
-                        <div class = 'nav_list_item'>
-                            <li><a href="#">Accueil</a></li>
-                        </div>
-                        <div class = 'nav_list_item'>
-                            <li><a href="#">Présentation</a></li>
-                        </div>
-                        <div class = 'nav_list_item'>
-                            <li><a href="#">Cv / compétences </a></li>
-                        </div>
-                        <div class = 'nav_list_item'>
-                            <li><a href="#">Projet</a></li>
-                        </div>
-                        <div class = 'nav_list_item'>
-                            <li><a href="#">Contact</a></li>
-                        </div>
-
-                    </ul>
-                </div>
-            </div>
+        <div class="logo">
+            <img src="/image/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#sobremi">Qui suis-je ?</a></li>
+                <li><a href="#curriculum">CV</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#Projet">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </div>
 </div>
@@ -202,83 +185,7 @@
         </section>
 
 <section class="skills" id="skills">
-    <div class="contenido-seccion">
-        <h2>compétences</h2>
-        <div class="fila">
-            <!-- Technical Skill -->
-            <div class="col">
-                <h3>Compétences Techniques</h3>
-                <div class="skill">
-                    <span>Javascript</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>30%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>HTML & CSS</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>75%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>PHP</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>60%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Symfony</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>30%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Professional Skills -->
-            <div class="col">
-                <h3>Compétences professionels</h3>
-                <div class="skill">
-                    <span>Comunication</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>80%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Travail en équipe</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>70%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Créativité</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>70%</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Pefectioniste</span>
-                    <div class="barra-skill">
-                        <div class="progreso">
-                            <span>65%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </section>
 
 
@@ -383,6 +290,35 @@
                 </div>
             </div>
 
+        <li class="card">
+            <div class="img"><img src="/image/projet_backenfd.png" alt="img" draggable="false"></div>
+            <h2>Projet BTS N°2</h2>
+            <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
+
+            <label for="modal-btn">Détails</label>
+
+
+
+
+            <div class="modal">
+                <div class="modal-wrap">
+                    <div class="box">
+
+                        <div class="flex">
+                            <img src="" alt="">
+                        </div>
+
+                        <div class="descCard">
+                            <h1>Projet BTS N°2</h1>
+                            <p>Dicere amicitiarum quaerant viri firmitatis et quaerant quam neque fieri adiumentique appetere appetere perstrinxi) paulo virium multo ut neque dicere (quem perstrinxi) magis esse expetendas quam inopes firmitatis (quem locum et qui benevolentiae quam praesidia dicere praesidii expetendas ut perstrinxi) minimumque praesidia ii dicere etiam haberet caritatis quam ante quisque.</p>
+                            <p class="h"> Technologie travailler :</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
 
 
         </ul>
@@ -391,44 +327,25 @@
 
     </section>
 
-
-        <section id="contact">
-            <div class="textContact">
-                <h2>Me contacter</h2>
-                <p>Vous pouvez me contacter via ces moyens</p>
-            </div>
-
-            <div class="moyens">
-
-                <div class="contactMoyens">
-
-                    <div class="telephone">
-                        <span id="logoTel"><i class="fa-solid fa-mobile"></i></span>
-                        <span id="tel">06 01 33 37 82</span>
-                    </div>
-
-                    <div class="mailBox">
-                        <span id="logoMail"><i class="fa-solid fa-envelope"></i></span>
-                        <span id="mail">matheo.maire.25@gmail.com</span>
-                    </div>
-
-                    <div class="linkBox">
-                        <span id="logoLink"><i class="fa-solid fa-link"></i></span>
-                        <span id="Linkedin">Matheo Maire</span>
-                    </div>
-
-                    <div class="githubBox">
-                        <span id="logoGithub"><i class="fa-brands fa-github"></i></span>
-                        <span id="github"><a href="https://github.com/EpsithO">Epsitho</a></span>
-                    </div>
+    <section class="footer">
+            <div class="paragraphe">
+                <h1>Mathéo Maire</h1>
+                <p>Developpeur Fullstack</p>
+                <div class="reseaux_sociaux">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
                 </div>
             </div>
-        </section>
+    </section>
+
+
+
 
 <div class="cursor"></div>
 
-<script src="script.js"></script>
-<script src="cursor.js"></script>
+
     
 
 

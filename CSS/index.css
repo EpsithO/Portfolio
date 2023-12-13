@@ -53,13 +53,89 @@ body {
     font-family:'Helvetica Neue', sans-serif;
 }
 
-.header i {
-    margin-left: 20px;
-    font-size: 60px;
-    color: white;
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black ;
+    z-index: 1000;
+    border-bottom: white 4px solid;
+}
+
+.header .logo {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .3s;
 }
+
+.header .logo:hover {
+    color: #e52222;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    position: relative;
+    display: flex;
+}
+
+.menu ul li {
+    position: relative;
+    list-style: none;
+}
+
+.menu ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #e52222;
+    letter-spacing: 2px;
+    transition: .3s;
+    border: white 2px solid;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.menu ul li a:hover {
+    color: white;
+    background-color: #e52222;
+    border: #e52222;
+}
+
+.menu ul li a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #e52222;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: .3s;
+}
+
+.menu ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 
 .popover {
     display: none;
@@ -489,6 +565,7 @@ body {
 }
 .curriculum .fila .col h3{
     font-size: 28px;
+    text-align: center;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
@@ -1169,6 +1246,49 @@ p{
     align-items: center;
     flex-direction: column;
 
+}
+
+.footer{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragrapheFooter{
+    font-size: 24px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.paragraphe h1{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.paragraphe p{
+    font-size: 24px;
+    font-family: 'Righteous';
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.reseaux_sociaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reseaux_sociaux i{
+    margin: 20px;
+    font-size: 48px;
+    color: white;
 }
 
 

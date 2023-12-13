@@ -305,6 +305,7 @@ body {
 .sobremi .contenido-seccion p{
     font: 18px;
     line-height: 22px;
+    color: white;
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
@@ -1291,5 +1292,105 @@ p{
     color: white;
 }
 
+.reseaux_sociaux i:hover{
+    color: #e52222;
+}
 
 
+.box .titre{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.box .titre h1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+
+}
+
+.BigBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+
+}
+
+.skillbox{
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+.skillTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.imgSkill{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSkill:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px ;
+
+}
+
+.skill-icon{
+    width: 50px;
+}
+
+.skillTitle h3{
+    color: #fff;
+    margin: 0.5rem;
+
+}
+
+.skill-icon{
+    width: 50px;
+    z-index: 2;
+}
+.skillTitle:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 35px;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #252A2E;
+}
+
+
+.skillbox p{
+    color: white;
+    width: 400px;
+    height: 300px;
+}
